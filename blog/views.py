@@ -25,7 +25,7 @@ def home_page(request):
     return render(request=request, template_name='index.html', context=data)
 
 
-
+print("hello world")
 
 def detail(request, post_id):
     categories = Category.objects.all()

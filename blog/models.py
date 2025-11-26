@@ -8,7 +8,7 @@ class Category(models.Model):
     
     def __str__(self):
         return str(self.name)
-    
+print("hello world")
     
 class Tag(models.Model):
     name = models.CharField(verbose_name="Tag name",max_length=250)
